@@ -11,5 +11,16 @@ app.listen(port, () => {
 })
 
 app.get('/bacheca', (req, res) => {
+    const posts = [
+        {
+            title: '',
+            content: '',
+            image: '',
+            tags: ['']
+
+        }
+    ]
+
+
 
 })

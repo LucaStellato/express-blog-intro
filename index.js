@@ -18,9 +18,15 @@ app.get('/bacheca', (req, res) => {
             image: '/images/ciambellone.jpeg',
             tags: ['nonnaforever', 'fattoincasaconbenedetta']
 
+        },
+        {
+            title: 'I cracker di ciccioGamer89',
+            content: 'Dopo il ciambellone ci vuole un cracker alla barbabietole fatto da ciccio',
+            image: '/images/cracker_barbabietola.jpeg',
+            tags: ['ématematico', 'fattoincasaconciccio', 'barbershopciccio']
         }
-    ]
-
+    ];
+    res.type('json').send(posts)
 
 
 })

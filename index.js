@@ -13,10 +13,10 @@ app.listen(port, () => {
 app.get('/bacheca', (req, res) => {
     const posts = [
         {
-            title: '',
-            content: '',
-            image: '',
-            tags: ['']
+            title: 'La ricetta della nonna....',
+            content: 'non é domenica senza il classico ciambellone di Benedetta',
+            image: '/images/ciambellone.jpeg',
+            tags: ['nonnaforever', 'fattoincasaconbenedetta']
 
         }
     ]

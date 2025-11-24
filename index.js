@@ -24,7 +24,25 @@ app.get('/bacheca', (req, res) => {
             content: 'Dopo il ciambellone ci vuole un cracker alla barbabietole fatto da ciccio',
             image: '/images/cracker_barbabietola.jpeg',
             tags: ['ématematico', 'fattoincasaconciccio', 'barbershopciccio']
-        }
+        },
+        {
+            title: 'E che fai te ne privi?',
+            content: 'il primo che fai non lo mangi?',
+            image: '/images/pasta_barbabietola.jpeg',
+            tags: ['ématematico', 'lhamburgeriadiciccio', 'echefaitteneprivi']
+        },
+        {
+            title: 'finalmente un po di dolce',
+            content: 'Una fetta di pane a testa siamo 3 quindi 6 fette di pane fritto',
+            image: '/images/pane_fritto_dolce.jpeg',
+            tags: ['ématematico', 'pane', 'zucchero']
+        },
+        {
+            title: 'La festa di piazze',
+            content: 'Na bella torta paesana',
+            image: '/images/torta_paesana.jpeg',
+            tags: ['festadipiazza', 'festadipaese', 'buonasera']
+        },
     ];
     res.type('json').send(posts)
 
